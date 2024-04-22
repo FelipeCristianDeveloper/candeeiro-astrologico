@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #ab2be2;
+    --secondary-color: #A6D1E6;
+    --font-color: #f5faf9;
+    --text-color: #3D3C42;
+}
+
+.App{
+    background-color: var(--text-color);
+    height: 100vh;
+    width: 100vw;
+}
